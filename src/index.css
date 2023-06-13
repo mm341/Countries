@@ -11,7 +11,9 @@
     padding: 0;
     margin: 0;
 }
-
+.CircularProgressbar{
+  width: 200px !important;
+}
 
 
 
