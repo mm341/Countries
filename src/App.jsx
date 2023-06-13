@@ -3,6 +3,7 @@ import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 // eslint-disable-next-line import/no-unresolved
 import Home from './Pages/home';
+import '@material/react-linear-progress/dist/linear-progress.css';
 
 // eslint-disable-next-line import/order
 import 'react-circular-progressbar/dist/styles.css';

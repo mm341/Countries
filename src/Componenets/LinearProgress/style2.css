@@ -1,0 +1,28 @@
+
+
+.emptyProgressBar {
+  background-color: #e7e4da;
+  border-radius: 100px;
+  height: 13px;
+  overflow: hidden;
+  position: relative;
+}
+.fillingProgressBar {
+  background-image: linear-gradient(to right, #666fcc, #9c77d3);
+  border-radius: 100px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+.percentage {
+  color: #5273e6;
+  font-size: 46px;
+}
+.mainProgressBarDiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+}

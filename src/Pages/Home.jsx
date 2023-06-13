@@ -9,12 +9,14 @@ import {
   Dialog,
   DialogContent,
   DialogTitle,
+  LinearProgress,
   Typography
 } from '@mui/material';
 import { useDispatch, useSelector } from 'react-redux';
 import { Country1, CountryDetails } from '../features/Country';
 import CircleProgress from '../Componenets/CircleProgress';
 import SkillsBar from '../Componenets/LinearProgress/SkillsBar';
+import LinearProgressBar from '../Componenets/LinearProgress/SkillsBar2';
 
 function Home() {
   const [open1, setOpen1] = React.useState(false);
@@ -72,7 +74,10 @@ function Home() {
       </Box>
 
       <SkillsBar skill={20}/>
-      <Box
+
+
+<LinearProgressBar percent={20}/>
+      {/* <Box
         sx={{
           width: '100%',
           display: 'flex',
@@ -213,7 +218,7 @@ function Home() {
             )}
           </Box>
         </DialogContent>
-      </Dialog>
+      </Dialog> */}
     </Container>
   );
 }
